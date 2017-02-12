@@ -1,0 +1,9 @@
+[package]
+name = "twapi"
+version = "0.1.0"
+authors = ["Bjarke Sørensen <bs@wasd.dk>"]
+
+[dependencies]
+tiberius = { git = "https://github.com/steffengy/tiberius.git" }
+futures = "0.1.10"
+tokio-core = "0.1.4"
