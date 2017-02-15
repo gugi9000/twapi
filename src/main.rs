@@ -24,7 +24,7 @@ fn main() {
        conn.simple_query(query).for_each_row(|row| {
            let kunde: &str = row.get("Kunde");
            let timer: f64 = row.get("Total");
-           println!("    {{\"{}\":\t{}}},", kunde, timer);
+           println!("\t{{\"{}\": {}}},", kunde, timer);
            Ok(())
        })
    });
