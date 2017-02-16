@@ -233,8 +233,6 @@ fn getPendingCases() {
     // return $json;
 }
 
-
-
 fn getManagedServiceCases(amount: i32) -> String {
     // get latest X managed service cases
     // $query2 = mssql_query('
